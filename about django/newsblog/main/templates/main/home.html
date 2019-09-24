@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="{% static 'main/css/style.css'%}" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo" src="" alt="logo">
+        <nav>
+            <ul class="nav__links">
+                <li><a href="" class="active">Home</a></li>
+                <div class = "dropdown">
+                    <li><a class= "dropbtn" href="">News</a></li>
+                        <div class = "dropdown-content">
+                            <a href="">Breaking news</a>
+                            <a href="">Tech news</a>
+                            <a href="">World news</a>
+                        </div>
+                </div>
+                <div class = "dropdown">    
+                    <li><a class= "dropbtn" href="">Education</a></li>
+                        <div class = "dropdown-content">
+                            <a href="">How to</a>
+                            <a href="">Majors</a>
+                            <a href="">Careers</a>
+                        </div>
+                </div>
+                <div class = "dropdown">        
+                    <li><a class="dropbtn" href="">Lifestyle</a></li>
+                        <div class = "dropdown-content">
+                            <a href="">Society</a>
+                            <a href="">Entertainment</a>
+                            <a href="">Nature</a>
+                        </div>
+                </div>        
+                <li><a href="">Podcast</a></li>
+                <li><a href="">Forum</a></li>
+                <li><a href="">About us</a></li>
+        </nav>
+        <a class="search" href=""><button>Search</button></a>
+    </header>
+    <section></section>
+    <!--Footer begins here-->
+    <div class ="footer">
+        <p>
+            <ul>
+            |<li class="list_footer"><a href="">Home</a></li>|
+            |<li class="list_footer"><a href=""> Privacy Policy</a></li>|
+            |<li class="list_footer"><a href=""> Contact</a></li>|
+            </ul>
+        </p>
+        </Br>
+        <p> &copy 2019 </p>
+
+    </div>
+</body>
+</html>
