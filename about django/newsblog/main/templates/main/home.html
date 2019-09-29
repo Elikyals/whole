@@ -13,7 +13,7 @@
     {% comment %} the above line is line 1 {% endcomment %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     {% comment %} the above line is line 2 {% endcomment %}
-    
+    <script src="https://kit.fontawesome.com/4124e85af9.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <!--Header starts here-->
@@ -50,15 +50,27 @@
                 <li><a href="">Podcast</a></li>
                 <li><a href="">Forum</a></li>
                 <li><a href="">About us</a></li>
-        </nav>
+            
         <!--Navigation bar ends-->
         <!--Search-->
-        <div id = "search">
-        <a href=""><button>Search</button></a>
+        <div class= "search-box">
+            <input class="search-txt" type="text" name="" placeholder="Search">
+            <a class= "search-btn" href="#">
+            <i class="fas fa-search"></i>
+            </a>
         </div>
-        <!--End Search-->
+        <!--End Search--> 
+        </ul>
+        </nav>       
     </header>
     <!--Header ends here-->
+    <!--time and temperature display-->
+    <div id="tt">
+    <h1>Time and temperature</h1>
+    </div>
+    <!--image changes-->
+    <div id="change"> <!--can we find a good name?-->
+    </div>
     <section>
         <div class="container">
             <div class="row">
@@ -94,6 +106,6 @@
 
     </div>
 </body>
-
-<script src="{% static 'tinymce/js/prism.js' %}"></script>
+<!--what is this???-->
+<!--<script src="{% static 'tinymce/js/prism.js' %}"></script>-->
 </html>
