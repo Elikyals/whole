@@ -21,6 +21,11 @@ header {
 .logo {
   cursor: pointer;
 }
+/*search */
+#search {
+  background-color: red;
+}
+
 .nav__links {
   list-style: none;
 }
